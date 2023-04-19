@@ -1,26 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Comfortaa&family=Rubik+Wet+Paint&family=Source+Code+Pro&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: auto;
+    text-align: center;
 }
 
 nav {
     display: flex;
-    background-color: aquamarine;
-    justify-content: space-between;
+    background-color: rgb(207, 64, 72);
+
+}
+
+nav h1 {
+
+    font-family: 'Charm', cursive;
+    font-size: 50px;
+    margin-right: auto;
+    color: white;
+    padding-left: 75px;
+
 }
 
 .nav-items {
+
     display: flex;
-    list-style-type: none;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: 'Comfortaa', cursive;
     align-items: center;
+    margin-left: auto;
+    padding-right: 75px;
+    color: rgb(17, 17, 17);
+
 
 }
 
-.nav-sub-item {}
+.nav-sub-item {
+    list-style-type: none;
+    padding: 25px;
+    justify-content: space-around;
+    text-decoration: none;
+
+    font-size: 25px;
+
+}
+
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-transform: uppercase;
+}
+
+.h2-titles {
+    font-family: 'Rubik Wet Paint', cursive;
+}
 
 section {
     display: block;
