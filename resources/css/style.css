@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Charm&family=Comfortaa&family=Rubik+Wet+Paint&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Comfortaa&family=Rubik+Wet+Paint&family=Sawarabi+Mincho&family=Source+Code+Pro&display=swap');
 
 body {
     display: flex;
@@ -59,6 +59,17 @@ a:hover {
 
 .h2-titles {
     font-family: 'Rubik Wet Paint', cursive;
+    font-size: 35px;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+}
+
+.project-title {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
 }
 
 section {
@@ -68,13 +79,13 @@ section {
 .skills-box {
     display: flex;
     width: auto;
-    justify-content: space-between;
-
+    justify-content: space-around;
 }
 
 .skills-box img {
     width: auto;
     height: 150px;
+    padding: 0 50px;
 }
 
 .foot-container {
