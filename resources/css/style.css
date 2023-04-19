@@ -37,3 +37,17 @@ section {
     width: auto;
     height: 150px;
 }
+
+.foot-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 30px;
+
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+}
