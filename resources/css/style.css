@@ -5,7 +5,10 @@ body {
     flex-direction: column;
     margin: 0 auto;
     width: auto;
-    text-align: center;
+    height: auto;
+    padding: 0 16px;
+    background-color: bisque;
+
 }
 
 nav {
@@ -60,6 +63,7 @@ a:hover {
 .h2-titles {
     font-family: 'Rubik Wet Paint', cursive;
     font-size: 35px;
+    text-align: justify;
 }
 
 p {
@@ -67,13 +71,38 @@ p {
     font-size: 18px;
 }
 
+.about-me-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+
+    color: rgb(0, 0, 0);
+
+}
+
+.about-me-text-container {
+    display: block;
+}
+
+.portrait {
+    border-radius: 50%;
+}
+
 .project-title {
     font-family: 'Source Code Pro', monospace;
     font-size: 25px;
 }
 
-section {
-    display: block;
+
+#projects {
+
+    color: rgb(0, 0, 0);
+}
+
+.project-image {
+    height: 400px;
+    width: auto;
 }
 
 .skills-box {
@@ -100,4 +129,8 @@ section {
 footer img {
     width: 100px;
     height: 100px;
+}
+
+footer p {
+    font-size: 30px;
 }
